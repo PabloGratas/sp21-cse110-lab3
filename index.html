@@ -99,6 +99,45 @@
             </section>
         </main>
         <footer>
+            <form>
+                <fieldset>
+                    <label><input type="checkbox" name="check">Do you want to add images?</label>
+                    <br>
+                    <label><input type="text" name="text">Enter your header here.</label>
+                    <br>
+                    <label for="maintext">Enter your text here</label>
+                    <br>
+                    <textarea id="maintext" name="story" rows="5" cols="33">
+                    </textarea>
+                    <br>
+                    <label for="day">Choose a day of the week</label>
+                    <select name="day" id="day">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                    </select>
+                    <br>
+                    <label for="ucsdclass">Choose a class to mention:</label>
+                    <input list="ucsdclasses" id="ucsdclass" name="ucsdclass" />
+
+                    <datalist id="ucsdclasses">
+                        <option value="CSE101">
+                        <option value="CSE110">
+                        <option value="CSE130">
+                        <option value="MATH183">
+                    </datalist>
+                    <br>
+                    <label><input type="radio" name="radio">Click to add your text.</label>
+                    <br>
+                    <label><input type="date" name="date">Give the entry a date.</label>
+                    <br>
+                    <button class="publish" type="button">Publish!</button>
+                </fieldset>
+            </form>
             <h3 id="Contacts">Contacts:</h3>
             <address>
                 <a href="mailto:pgratas@ucsd.edu">pgratas@ucsd.edu</a>

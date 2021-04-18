@@ -30,6 +30,9 @@ nav {
 }
 audio.welcomeaudio {
     display: inline-block; /*allows navigation and audio to appear side by side*/
+    
+    height: 10px; /*Makes the audio player much smaller to be less intrusive*/
+    width: 100px;
 }
 audio:hover { /*Make audio player disapear when hovered over*/
     display:none;
@@ -51,4 +54,7 @@ html body{
 .mediacontent {
     display: block; /*adds block type for this content to avoid anything appearing beside it*/
     margin: 20px 1px 10px 1px; /*Adds margin info*/
+    
+    max-width: 400px; /*sets max height and width for media content*/
+    max-height: 200px;
 }

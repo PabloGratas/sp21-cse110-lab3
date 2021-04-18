@@ -47,8 +47,21 @@ span ~ ol {
 audio:hover { /*Make audio player disapear when hovered over*/
     display:none;
 }
+  @media (min-width: 35rem) {
+    div > div {
+      background: darkblue;
+    }
+  }
+  
+  /* Maximum width */
+  @media (max-width: 100rem) {
+    div > div{
+      border: 2px solid rgb(228, 188, 103);
+    }
+  }
+    
 #creation-form {
-    color:  #4f3317; /* Turns text of all text inside the creation form dark brown*/
+    color:  #f5cfa9; /* Turns text of all text inside the creation form dark brown*/
     font-size: 12pt; /*Change font size*/
     line-height: 2vh; /*Change line size depending on height of viewport*/
     margin: auto; /*auto margins*/

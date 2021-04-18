@@ -1,16 +1,28 @@
 p {
-    color:  rgb(80, 52, 24) /* Turns text of all p dark brown*/
+    color:  rgb(80, 52, 24); /* Turns text of all p dark brown*/
+    font-size: 20px;
+    line-height: 90%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color:  hsl(30, 54%, 20%) /* Truns text of all h1 dark brown*/
+    color:  hsl(30, 54%, 20%); /* Truns text of all h1 dark brown*/
+    font-size: 2rem;
+}
+nav ~ ul {
+
 }
 #creation-form {
-    color:  #4f3317 /* Turns text of all text inside the creation form dark brown*/
+    color:  #4f3317; /* Turns text of all text inside the creation form dark brown*/
+    font-size: 12pt;
+    line-height: 2vh;
 }
 footer > address > h3{
-    color: brown;
+    color: brown; /* Turns text of the "Contacts" text in the footer to brown*/
+    font-size: 10mm;
 }
 html body{
-    background-color: beige;
+    background-color: beige; /*Makes the background beige, because beige is my favorite color. */
+}
+.mediacontent {
+
 }

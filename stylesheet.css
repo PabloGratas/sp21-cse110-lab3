@@ -19,11 +19,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2rem; /* Increase the font size*/
     text-decoration: underline; /*Add underline to all headings*/
 }
-h1 {
-    text-align: center; /*Allign the main header to the center of its block*/
-    position: absolute; /*make the main header absolute so it can exist next to other things */
-    left: 50% /*makes sure the header doesn't conflict with the nav or the audio player*/
-}
 h1:active { /*Turn header blue when clicked on*/
     color: cadetblue;
 }

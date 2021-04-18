@@ -1,12 +1,14 @@
 p {
     color:  rgb(80, 52, 24); /* Turns text of all p dark brown*/
-    font-size: 20px;
-    line-height: 90%;
-    margin-top: 10px;
+    font-size: 20px; /* 20px font size for all p*/
+    line-height: 90%; /* reduce line height a bit for compactness*/
+    
+    margin-top: 10px; /*Margin formating*/
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 20px;
-    padding-top: 5px;
+
+    padding-top: 5px; /*Padding formating*/
     padding-left: 1px;
     padding-right: 1px;
     padding-bottom: 10px;
@@ -14,33 +16,39 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     color:  hsl(30, 54%, 20%); /* Truns text of all h1 dark brown*/
-    font-size: 2rem;
-    text-decoration: underline;
+    font-size: 2rem; /* Increase the font size*/
+    text-decoration: underline; /*Add underline to all headings*/
 }
 h1 {
-    text-align: center;
+    text-align: center; /*Allign the main header to the center*/
+}
+h1:active { /*Turn header blue when clicked on*/
+    color: cadetblue;
 }
 nav {
-    display: inline-block;
+    display: inline-block; /*allows navigation and audio to appear side by side*/
 }
 audio.welcomeaudio {
-    display: inline-block;
+    display: inline-block; /*allows navigation and audio to appear side by side*/
+}
+audio:hover { /*Make audio player disapear when hovered over*/
+    display:none;
 }
 #creation-form {
     color:  #4f3317; /* Turns text of all text inside the creation form dark brown*/
-    font-size: 12pt;
-    line-height: 2vh;
-    margin: auto;
-    padding: 10px
+    font-size: 12pt; /*Change font size*/
+    line-height: 2vh; /*Change line size depending on height of viewport*/
+    margin: auto; /*auto margins*/
+    padding: 10px /*add padding info*/
 }
 footer > address > h3{
     color: brown; /* Turns text of the "Contacts" text in the footer to brown*/
-    font-size: 10mm;
+    font-size: 10mm; /*Changes font size*/
 }
 html body{
     background-color: beige; /*Makes the background beige, because beige is my favorite color. */
 }
 .mediacontent {
-    display: block;
-    margin: 20px 1px 10px 1px;
+    display: block; /*adds block type for this content to avoid anything appearing beside it*/
+    margin: 20px 1px 10px 1px; /*Adds margin info*/
 }

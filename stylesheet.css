@@ -20,8 +20,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     text-align: center;
 }
-nav ~ ul {
-
+nav {
+    display: inline-block;
+}
+audio.welcomeaudio {
+    display: inline-block;
 }
 #creation-form {
     color:  #4f3317; /* Turns text of all text inside the creation form dark brown*/
@@ -38,5 +41,6 @@ html body{
     background-color: beige; /*Makes the background beige, because beige is my favorite color. */
 }
 .mediacontent {
+    display: block;
     margin: 20px 1px 10px 1px;
 }

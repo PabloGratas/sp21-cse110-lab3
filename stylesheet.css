@@ -15,6 +15,10 @@ p {
 h1, h2, h3, h4, h5, h6 {
     color:  hsl(30, 54%, 20%); /* Truns text of all h1 dark brown*/
     font-size: 2rem;
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
 }
 nav ~ ul {
 

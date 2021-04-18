@@ -2,6 +2,14 @@ p {
     color:  rgb(80, 52, 24); /* Turns text of all p dark brown*/
     font-size: 20px;
     line-height: 90%;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,6 +23,8 @@ nav ~ ul {
     color:  #4f3317; /* Turns text of all text inside the creation form dark brown*/
     font-size: 12pt;
     line-height: 2vh;
+    margin: auto;
+    padding: 10px
 }
 footer > address > h3{
     color: brown; /* Turns text of the "Contacts" text in the footer to brown*/
@@ -24,5 +34,5 @@ html body{
     background-color: beige; /*Makes the background beige, because beige is my favorite color. */
 }
 .mediacontent {
-
+    margin: 20px 1px 10px 1px;
 }

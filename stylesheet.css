@@ -36,6 +36,14 @@ audio.welcomeaudio {
     height: 10px; /*Makes the audio player much smaller to be less intrusive*/
     width: 100px;
 }
+span ~ ol {
+    text-align: center; /*align text to center*/
+    display: inline-grid; /*enable grid*/
+    grid-template-columns: 40px auto 40px; /*set column info*/
+    grid-template-rows: 40px auto 40px; /*set row info*/
+    column-gap: 200px; /* Seperate the columns*/
+    row-gap: 10px /* Seperate the rows*/
+}
 audio:hover { /*Make audio player disapear when hovered over*/
     display:none;
 }
@@ -46,7 +54,13 @@ audio:hover { /*Make audio player disapear when hovered over*/
     margin: auto; /*auto margins*/
     padding: 10px; /*add padding info*/
     position: static; /*default positioning for this element*/
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+form + address {
+    text-align: right;
 }
 footer > address > h3{
     color: brown; /* Turns text of the "Contacts" text in the footer to brown*/

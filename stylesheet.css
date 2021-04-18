@@ -46,6 +46,7 @@ audio:hover { /*Make audio player disapear when hovered over*/
     margin: auto; /*auto margins*/
     padding: 10px; /*add padding info*/
     position: static; /*default positioning for this element*/
+    display: flex;
 }
 footer > address > h3{
     color: brown; /* Turns text of the "Contacts" text in the footer to brown*/
@@ -53,6 +54,7 @@ footer > address > h3{
 }
 html body{
     background-color: beige; /*Makes the background beige, because beige is my favorite color. */
+    font-family: 'Open Sans', sans-serif; /* Sets a default font*/
 }
 .mediacontent {
     display: block; /*adds block type for this content to avoid anything appearing beside it*/

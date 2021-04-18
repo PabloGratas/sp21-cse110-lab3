@@ -20,7 +20,9 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline; /*Add underline to all headings*/
 }
 h1 {
-    text-align: center; /*Allign the main header to the center*/
+    text-align: center; /*Allign the main header to the center of its block*/
+    position: absolute; /*make the main header absolute so it can exist next to other things */
+    left: 50% /*makes sure the header doesn't conflict with the nav or the audio player*/
 }
 h1:active { /*Turn header blue when clicked on*/
     color: cadetblue;
@@ -42,7 +44,8 @@ audio:hover { /*Make audio player disapear when hovered over*/
     font-size: 12pt; /*Change font size*/
     line-height: 2vh; /*Change line size depending on height of viewport*/
     margin: auto; /*auto margins*/
-    padding: 10px /*add padding info*/
+    padding: 10px; /*add padding info*/
+    position: static; /*default positioning for this element*/
 }
 footer > address > h3{
     color: brown; /* Turns text of the "Contacts" text in the footer to brown*/
